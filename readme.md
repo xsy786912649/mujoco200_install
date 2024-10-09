@@ -1,4 +1,4 @@
-This resp is to help you easily install mujoco200 and mujoco_py==2.0.2.5 (valid version for windows) in a **windows** conputer
+This repo is to help you easily install mujoco200 and mujoco_py==2.0.2.5 (valid version for windows) in a **windows** conputer
 
 
 Step 1: move the folder .mujoco to path "C:\Users\ (your_windows_id)"
