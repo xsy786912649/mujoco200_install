@@ -3,7 +3,25 @@ This repo is to help you easily install mujoco200 and mujoco_py==2.0.2.5 (valid 
 
 Step 1: move the folder .mujoco to path "C:\Users\ (your_windows_id)"
 
-Step 2: add mujoco to environment path (look up more details)
+Step 2: add mujoco to environment path 
+
+>Two new system variables:
+>
+>Variable: MUJOCO_PY_MJPRO_PATH
+>
+>Value: C:\Users\ (your_windows_id)\\.mujoco\mjpro200
+>
+>Variable: MUJOCO_PY_MJKEY_PATH
+>
+>Value: C:\Users\ (your_windows_id)\\.mujoco\mjpro200\bin\mjkey.txt
+>
+>Add the follow to Path in System Variables
+>
+>C:\Users\ (your_windows_id)\\.mujoco
+>
+>C:\Users\ (your_windows_id)\\.mujoco\mjpro200
+>
+>C:\Users\ (your_windows_id)\\.mujoco\mjpro200\bin\mjkey.txt
 
 Step 3: add following lines to the beginning of your code
 
